@@ -5,8 +5,15 @@ body {
     width: 50%;
     margin: 0 auto;
 }
+body h1{
+    font-family: 'Hurricane';
+    font-size: 3rem;
+}
 body img{
-    width: 700px;
+    width: 600px;
+}
+body p{
+    line-height: 25px;
 }
 .ingridients {
     padding: 2%;
