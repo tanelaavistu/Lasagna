@@ -1,0 +1,55 @@
+body {
+    background-color: #121212;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+body img{
+    width: 700px;
+}
+.ingridients {
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid #ffffff;
+    border-radius: 3%;
+    width: 400px;
+}
+.ingridients td{
+    padding-right: 100px;
+}
+.ingridients th{
+    text-align: left;
+}
+.instructions {
+    width: fit-content;
+}
+.instructions li{
+    padding-bottom:10px;
+    line-height: 25px;
+}
+#author{
+    color:rgb(206, 206, 206);
+}
+.footer{
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 50px;
+}
+ /* Link colors */
+ a:link {
+    color: rgb(137, 205, 228);
+  }
+
+  a:visited {
+    color: rgb(133, 133, 133);
+  }
+
+  a:hover {
+    color: pink;
+  }
+
+  a:active {
+    color: blue;
+  } 
