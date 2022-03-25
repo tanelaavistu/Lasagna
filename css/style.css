@@ -4,14 +4,43 @@ body {
     color: white;
     width: 50%;
     margin: 0 auto;
+    position: relative;
+    animation: body;
+    animation-duration: 1s;
 }
+
+@keyframes body {
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
 body h1{
     font-family: 'Hurricane';
     font-size: 3rem;
+    position: relative;
+    animation: h1 forwards;
+    animation-duration: 1s;
 }
+
+@keyframes h1{
+    0% {top:-1000px}
+    100% {top: 0px}
+}
+
 body img{
+    opacity: 0;
     width: 600px;
+    position: relative;
+    animation: img forwards;
+    animation-duration: 3s;
+
 }
+
+@keyframes img {
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
 body p{
     line-height: 25px;
 }
